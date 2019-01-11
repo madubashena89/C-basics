@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace basic_code1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string name = "Pradeep";
+            int age = 29;
+            Console.WriteLine("There is a student who is having a hard time to find a job. Whose name is " + name);
+            Console.WriteLine("He is " + age + " years old.");
+            Console.WriteLine(name.Length);
+            Console.WriteLine(name.ToUpper());
+            Console.WriteLine(name.ToLower());
+            Console.WriteLine(name.Contains("radeep"));
+            Console.WriteLine(name.Contains("Sanu"));
+            Console.WriteLine(name[6]);
+            Console.WriteLine(name.IndexOf('e'));
+            Console.WriteLine(name.Substring(4, 3));
+
+
+
+
+
+
+
+
+
+
+            Console.ReadLine();
+
+      
+
+
+
+        }
+    }
+}
